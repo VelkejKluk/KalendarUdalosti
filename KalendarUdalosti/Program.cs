@@ -1,8 +1,11 @@
 ﻿using Spectre.Console;
+using KalendarUdalosti;
+PomocnaTr pomocnaTrida = new PomocnaTr();
 
-Console.ForegroundColor = ConsoleColor.Blue; Console.WriteLine(@"  ___    __    __    ____  _  _  ____    __    ____ 
+//front page
+Console.ForegroundColor = ConsoleColor.Blue; Console.WriteLine(@" ___    __    __    ____  _  _  ____    __    ____ 
 / __)  /__\  (  )  ( ___)( \( )(  _ \  /__\  (  _ \
-( (__  /(__)\  )(__  )__)  )  (  )(_) )/(__)\  )   /
+( (__  /(__)\  )(__  )__)  )  (  )(_) )/(__)\  )  /
 \___)(__)(__)(____)(____)(_)\_)(____/(__)(__)(_)\_)                             
 ");
 Thread.Sleep(5000);
@@ -15,29 +18,25 @@ while (true)
         .Title("Menu:")
         .PageSize(10)
         .AddChoices(new[] {
-        "Calendar", "All Events", "New Event",
-        "Close Application",
+    "Calendar", "All Events", "New Event",
+    "Close Application",
         }));
-    if (vyber == "Kalendář aktuálního měsíce")
+    if (vyber == "Calendar")
     {
-        DateOnly soucasnyDatum = DateOnly.FromDateTime(DateTime.Now);
-        
-        var calendar = new Calendar(soucasnyDatum.Year, soucasnyDatum.Month);
-        calendar.Culture("cs-CZ");
-        AnsiConsole.Write(calendar);
-        break;
+        pomocnaTrida.ActualMonth();
+        Console.ReadKey();
+        Console.Clear();
     }
-    else if (vyber == "Zobrazení událostí")
+    else if (vyber == "All Events")
     {
 
     }
-    else if(vyber == "Přidání událostí")
+    else if (vyber == "New Event")
     {
-
+        pomocnaTrida.NewEvent();
     }
-    else if( vyber == "Ukončit aplikaci")
+    else if (vyber == "Close Application")
     {
         Environment.Exit(1);
     }
 }
-

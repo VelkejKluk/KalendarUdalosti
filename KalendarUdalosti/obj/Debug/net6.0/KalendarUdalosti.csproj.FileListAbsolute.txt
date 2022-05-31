@@ -15,3 +15,20 @@ C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.genruntimeconfig.cache
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\Spectre.Console.dll
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.CopyComplete
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.exe
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.deps.json
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.runtimeconfig.json
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.pdb
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\Spectre.Console.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.AssemblyReference.cache
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.AssemblyInfoInputs.cache
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.AssemblyInfo.cs
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.CoreCompileInputs.cache
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.CopyComplete
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\refint\KalendarUdalosti.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.pdb
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.genruntimeconfig.cache
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\ref\KalendarUdalosti.dll

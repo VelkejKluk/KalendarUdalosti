@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "273iOfm0f7XlP/O9BKsjNK4grE1Cx3pZtpn7N+Hu8/OmCIKnXXUrjMLrYK6rY/XcPwCQ4Kjv6YwrdGMiiUJllg==",
+  "dgSpecHash": "3y+FLXDaZSc1ccMKsmig1Os4JBuapPNqvw1kYhZ+SlL9stYFzY2lyEXQfyQtbQT0wjvn/ndsKwx3gd6S4DH6oQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josef.navratil\\source\\repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj",
+  "projectFilePath": "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\KalendarUdalosti.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\spectre.console\\0.44.0\\spectre.console.0.44.0.nupkg.sha512"
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\spectre.console\\0.44.0\\spectre.console.0.44.0.nupkg.sha512"
   ],
   "logs": []
 }
