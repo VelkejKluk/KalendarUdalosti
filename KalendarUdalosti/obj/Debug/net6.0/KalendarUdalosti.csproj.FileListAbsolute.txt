@@ -1,0 +1,17 @@
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.AssemblyReference.cache
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.AssemblyInfoInputs.cache
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.AssemblyInfo.cs
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.CoreCompileInputs.cache
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.exe
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.deps.json
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.runtimeconfig.json
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.dll
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\ref\KalendarUdalosti.dll
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.pdb
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.dll
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\ref\KalendarUdalosti.dll
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.pdb
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.genruntimeconfig.cache
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\Spectre.Console.dll
+C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.csproj.CopyComplete

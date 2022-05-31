@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "273iOfm0f7XlP/O9BKsjNK4grE1Cx3pZtpn7N+Hu8/OmCIKnXXUrjMLrYK6rY/XcPwCQ4Kjv6YwrdGMiiUJllg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josef.navratil\\source\\repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josef.navratil\\.nuget\\packages\\spectre.console\\0.44.0\\spectre.console.0.44.0.nupkg.sha512"
+  ],
+  "logs": []
+}
