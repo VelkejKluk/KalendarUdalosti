@@ -9,8 +9,8 @@ namespace KalendarUdalosti{
             DateOnly soucasnyDatum = DateOnly.FromDateTime(DateTime.Now);
 
             var calendar = new Calendar(soucasnyDatum.Year, soucasnyDatum.Month);
-            //calendar.HighlightStyle(Style.Parse("blue bold"));
-            AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("blue bold")));
+            calendar.AddCalendarEvent(soucasnyDatum.Year, soucasnyDatum.Month, soucasnyDatum.Day);
+            AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("red bold")));
         }
 
         public void AllEvents(DateTime dateTime)
@@ -28,7 +28,12 @@ namespace KalendarUdalosti{
             .Title("Events:")
             .PageSize(10)
             .AddChoices(new[] {dateTime}));
-            Console.WriteLine();
+
+            string chose = Convert.ToString(vyber);
+            if(chose == "2005-11-23" )
+            {
+                Console.WriteLine("hoj");
+            }
                         
         }
 

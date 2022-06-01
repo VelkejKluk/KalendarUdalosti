@@ -8,6 +8,7 @@ Console.ForegroundColor = ConsoleColor.Blue; Console.WriteLine(@" ___    __    _
 ( (__  /(__)\  )(__  )__)  )  (  )(_) )/(__)\  )  /
 \___)(__)(__)(____)(____)(_)\_)(____/(__)(__)(_)\_)                             
 ");
+Console.ResetColor();
 Thread.Sleep(5000);
 Console.Clear();
 
@@ -37,6 +38,7 @@ while (true)
     else if (vyber == "New Event")
     {
         pomocnaTrida.NewEvent();
+        Console.Clear();
     }
     else if (vyber == "Close Application")
     {
