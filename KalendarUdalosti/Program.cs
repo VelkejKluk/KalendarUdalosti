@@ -29,7 +29,10 @@ while (true)
     }
     else if (vyber == "All Events")
     {
-
+        DateTime working = new DateTime();
+        pomocnaTrida.AllEvents(working);
+        Console.ReadKey();
+        Console.Clear();
     }
     else if (vyber == "New Event")
     {

@@ -7,7 +7,6 @@ C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.deps.json
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.runtimeconfig.json
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.dll
-C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\ref\KalendarUdalosti.dll
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\KalendarUdalosti.pdb
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.dll
 C:\Users\josef.navratil\source\repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\ref\KalendarUdalosti.dll
@@ -32,3 +31,4 @@ C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\K
 C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.pdb
 C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.genruntimeconfig.cache
 C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\obj\Debug\net6.0\ref\KalendarUdalosti.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\refint\KalendarUdalosti.dll
