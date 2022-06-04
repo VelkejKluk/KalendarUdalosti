@@ -2,10 +2,8 @@
 
 namespace KalendarUdalosti{
     internal class PomocnaTr{
-        List<DateOnly> data = new List<DateOnly>()
-        {
-            new DateOnly()
-        };
+        List<DateOnly> data = new List<DateOnly>();
+        
 
         public void ActualMonth()
         {
@@ -30,7 +28,7 @@ namespace KalendarUdalosti{
             {
                 if (dateTime != null)
                 {
-                    Console.WriteLine("Error");
+                    Console.WriteLine("error");
                     break;
                 }
                 else
@@ -52,17 +50,45 @@ namespace KalendarUdalosti{
 
         public void NewEvent()
         {
-            Console.Write("year: ");
-            int year = Convert.ToInt32(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("year: ");
+                int year = Convert.ToInt32(Console.ReadLine());
+                if (year >= 1950 && year <= 2022) { }
+                else
+                {
+                    this.Helper();
+                    break;
+                }
+                Console.Write("month: ");
+                int month = Convert.ToInt32(Console.ReadLine());
+                if (month >= 1 && month <= 12) { }
+                else
+                {
+                    this.Helper();
+                    break;
+                }
+                Console.Write("day: ");
+                int day = Convert.ToInt32(Console.ReadLine());
+                if (day >= 1 && day <= 31) { }
+                else
+                {
+                    this.Helper();
+                    break;
+                }
 
-            Console.Write("month: ");
-            int month = Convert.ToInt32(Console.ReadLine());
+                DateOnly date = new DateOnly(year, month, day);
+                data.Add(date);
+                break;
+            }
+        }
 
-            Console.Write("day: ");
-            int day = Convert.ToInt32(Console.ReadLine());
-
-            DateOnly date = new DateOnly(year, month, day);
-            data.Add(date);
+        public void Helper()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("error");
+            Console.ResetColor();
+            Thread.Sleep(300);
         }
     }
 }
