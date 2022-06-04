@@ -2,7 +2,10 @@
 
 namespace KalendarUdalosti{
     internal class PomocnaTr{
-        List<DateOnly> data = new List<DateOnly>();
+        List<DateOnly> data = new List<DateOnly>()
+        {
+            new DateOnly()
+        };
 
         public void ActualMonth()
         {
@@ -21,20 +24,30 @@ namespace KalendarUdalosti{
 
                 var datum = new Calendar(dateTime);
                 datum.AddCalendarEvent(dateTime.Year, dateTime.Month, dateTime.Day);
-                datum.HighlightStyle(Style.Parse("green bold"));
+                //datum.HighlightStyle(Style.Parse("green bold"));
             }
-            var vyber = AnsiConsole.Prompt(
-            new SelectionPrompt<DateTime>()
-            .Title("Events:")
-            .PageSize(10)
-            .AddChoices(new[] {dateTime}));
-
-            string chose = Convert.ToString(vyber);
-            if(chose == "2005-11-23" )
+            while (true)
             {
-                Console.WriteLine("hoj");
+                if (dateTime != null)
+                {
+                    Console.WriteLine("Error");
+                    break;
+                }
+                else
+                {
+                    var vyber = AnsiConsole.Prompt(
+                    new SelectionPrompt<DateTime>()
+                    .Title("Events:")
+                    .PageSize(10)
+                    .AddChoices(new[] { dateTime }));
+                    var calendar = new Calendar(vyber);
+                    calendar.AddCalendarEvent(vyber);
+                    AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("yellow bold")));
+                    Console.ReadKey();
+                    break;
+                }
+                
             }
-                        
         }
 
         public void NewEvent()
