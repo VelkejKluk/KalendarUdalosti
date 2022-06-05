@@ -4,8 +4,8 @@ PomocnaTr pomocnaTrida = new PomocnaTr();
 
 //front page
 Console.ForegroundColor = ConsoleColor.Blue; Console.WriteLine(@" ___    __    __    ____  _  _  ____    __    ____ 
-/ __)  /__\  (  )  ( ___)( \( )(  _ \  /__\  (  _ \
-( (__  /(__)\  )(__  )__)  )  (  )(_) )/(__)\  )  /
+/ __)  /__\  (  )  ( ___)( \( )(  _ \  /__\  (  _\
+( (__  /(__)\  )(__  )__)  )  ( )(_) )/(__)\  )  /
 \___)(__)(__)(____)(____)(_)\_)(____/(__)(__)(_)\_)                             
 ");
 Console.ResetColor();
@@ -42,6 +42,22 @@ while (true)
     }
     else if (vyber == "Close Application")
     {
+        await AnsiConsole.Progress()
+        .StartAsync(async ctx =>
+        {
+            // Define tasks
+            var task1 = ctx.AddTask("[blue]Closing the app[/]");
+
+            while (!ctx.IsFinished)
+            {
+                // Simulate some work
+                await Task.Delay(100);
+
+                // Increment
+                task1.Increment(1.5);
+            }
+        });
+        Console.Clear();
         Environment.Exit(1);
     }
 }

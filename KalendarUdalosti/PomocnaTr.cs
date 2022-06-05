@@ -26,7 +26,7 @@ namespace KalendarUdalosti{
             }
             while (true)
             {
-                if (dateTime != null)
+                if (dateTime != DateTime.MinValue)
                 {
                     var vyber = AnsiConsole.Prompt(
                     new SelectionPrompt<DateTime>()
@@ -41,8 +41,9 @@ namespace KalendarUdalosti{
                 }
                 else
                 {
-                    
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("error");
+                    Console.ResetColor();
                     break;
                 }
                 
