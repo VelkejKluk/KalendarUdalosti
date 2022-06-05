@@ -28,11 +28,6 @@ namespace KalendarUdalosti{
             {
                 if (dateTime != null)
                 {
-                    Console.WriteLine("error");
-                    break;
-                }
-                else
-                {
                     var vyber = AnsiConsole.Prompt(
                     new SelectionPrompt<DateTime>()
                     .Title("Events:")
@@ -42,6 +37,12 @@ namespace KalendarUdalosti{
                     calendar.AddCalendarEvent(vyber);
                     AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("yellow bold")));
                     Console.ReadKey();
+                    break;
+                }
+                else
+                {
+                    
+                    Console.WriteLine("error");
                     break;
                 }
                 
