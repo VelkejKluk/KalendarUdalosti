@@ -2,8 +2,8 @@
 
 namespace KalendarUdalosti{
     internal class PomocnaTr{
+        DataAccess pristup = new DataAccess();
         List<DateOnly> data = new List<DateOnly>();
-        
 
         public void ActualMonth()
         {
@@ -12,6 +12,7 @@ namespace KalendarUdalosti{
             var calendar = new Calendar(soucasnyDatum.Year, soucasnyDatum.Month);
             calendar.AddCalendarEvent(soucasnyDatum.Year, soucasnyDatum.Month, soucasnyDatum.Day);
             AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("red bold")));
+            
         }
 
         public void AllEvents(DateTime dateTime)
