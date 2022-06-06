@@ -1,9 +1,22 @@
 ﻿using Spectre.Console;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 namespace KalendarUdalosti{
     internal class PomocnaTr{
+        private MongoClient klientDb;
+        private IMongoDatabase kalendar;
+        private IMongoCollection<DateOnly> dates;
+
+        public PomocnaTr()
+        {
+            klientDb = new MongoClient("mongodb+srv://VelkejKluk:cotozkousis@clusterspellbook.5uqbn.mongodb.net/ClusterSpellBook?retryWrites=true&w=majority");
+
+            kalendar = klientDb.GetDatabase("Calendar");
+            dates = kalendar.GetCollection<DateOnly>("calendarData");
+        }
+
         List<DateOnly> data = new List<DateOnly>();
-        
 
         public void ActualMonth()
         {
@@ -12,13 +25,15 @@ namespace KalendarUdalosti{
             var calendar = new Calendar(soucasnyDatum.Year, soucasnyDatum.Month);
             calendar.AddCalendarEvent(soucasnyDatum.Year, soucasnyDatum.Month, soucasnyDatum.Day);
             AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("red bold")));
+            
         }
 
         public void AllEvents(DateTime dateTime)
         {
-            foreach (DateOnly date in this.data)
+            List<DateOnly> callendarSeznam = dates.Find(new BsonDocument()).ToList();
+            foreach (DateOnly a in callendarSeznam)
             {
-                dateTime = date.ToDateTime(TimeOnly.Parse("00:00 AM"));
+                dateTime = a.ToDateTime(TimeOnly.Parse("00:00 AM"));
 
                 var datum = new Calendar(dateTime);
                 datum.AddCalendarEvent(dateTime.Year, dateTime.Month, dateTime.Day);
@@ -80,7 +95,8 @@ namespace KalendarUdalosti{
                 }
 
                 DateOnly date = new DateOnly(year, month, day);
-                data.Add(date);
+                //data.Add(date);
+                dates.InsertOne(date);
                 break;
             }
         }
