@@ -647,6 +647,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MongoDB.Bson >= 2.15.1",
       "MongoDB.Driver >= 2.15.1",
       "Spectre.Console >= 0.44.0"
     ]
@@ -690,6 +691,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.15.1, )"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.15.1, )"

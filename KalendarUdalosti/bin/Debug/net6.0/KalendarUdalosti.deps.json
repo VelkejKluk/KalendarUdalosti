@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "KalendarUdalosti/1.0.0": {
         "dependencies": {
+          "MongoDB.Bson": "2.15.1",
           "MongoDB.Driver": "2.15.1",
           "Spectre.Console": "0.44.0"
         },
