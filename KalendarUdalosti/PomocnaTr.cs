@@ -2,7 +2,6 @@
 
 namespace KalendarUdalosti{
     internal class PomocnaTr{
-        DataAccess pristup = new DataAccess();
         List<DateOnly> data = new List<DateOnly>();
 
         public void ActualMonth()

@@ -49,3 +49,19 @@ C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\K
 C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.pdb
 C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\KalendarUdalosti.genruntimeconfig.cache
 C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\KalendarUdalosti\obj\Debug\net6.0\ref\KalendarUdalosti.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\DnsClient.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
