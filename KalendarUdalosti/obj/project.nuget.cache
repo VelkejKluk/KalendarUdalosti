@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "ccI0AiQSfy8GUGRgOPWFo8NhlcKbv6CLY7pCFxeVSluR+nfNcohBT30GIjgiDm72ye/9ypiNZAZ4XAfDtNaP1Q==",
+  "dgSpecHash": "DMJqtne6KBwOfdE3/BdcDz3j+ZFCxtdaP/BQepm23dSNjs2MMQsTeGwQmEa1NggZUSsbRUrpeaVfvzthZh2EuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josef.navratil\\Source\\Repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj",
+  "projectFilePath": "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\KalendarUdalosti.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\mongodb.driver\\2.15.1\\mongodb.driver.2.15.1.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\mongodb.driver.core\\2.15.1\\mongodb.driver.core.2.15.1.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\spectre.console\\0.44.0\\spectre.console.0.44.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\josef.navratil\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\mongodb.driver\\2.15.1\\mongodb.driver.2.15.1.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\mongodb.driver.core\\2.15.1\\mongodb.driver.core.2.15.1.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\spectre.console\\0.44.0\\spectre.console.0.44.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Josef Navrátil\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

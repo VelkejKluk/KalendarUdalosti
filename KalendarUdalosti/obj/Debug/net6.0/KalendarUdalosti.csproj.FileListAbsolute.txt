@@ -65,3 +65,19 @@ C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug
 C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\josef.navratil\Source\Repos\KalendarUdalosti\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Josef Navrátil\OneDrive - Střední škola EDUCHEM, a.s\VisualStudio\Kalendar\KalendarUdalosti\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll

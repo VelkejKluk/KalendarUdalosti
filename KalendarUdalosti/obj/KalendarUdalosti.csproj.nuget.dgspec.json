@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josef.navratil\\Source\\Repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj": {}
+    "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\KalendarUdalosti.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josef.navratil\\Source\\Repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj": {
+    "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\KalendarUdalosti.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josef.navratil\\Source\\Repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj",
+        "projectUniqueName": "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\KalendarUdalosti.csproj",
         "projectName": "KalendarUdalosti",
-        "projectPath": "C:\\Users\\josef.navratil\\Source\\Repos\\KalendarUdalosti\\KalendarUdalosti\\KalendarUdalosti.csproj",
-        "packagesPath": "C:\\Users\\josef.navratil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josef.navratil\\Source\\Repos\\KalendarUdalosti\\KalendarUdalosti\\obj\\",
+        "projectPath": "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\KalendarUdalosti.csproj",
+        "packagesPath": "C:\\Users\\Josef Navrátil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josef Navrátil\\OneDrive - Střední škola EDUCHEM, a.s\\VisualStudio\\Kalendar\\KalendarUdalosti\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\josef.navratil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Josef Navrátil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
