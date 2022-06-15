@@ -19,10 +19,6 @@ namespace KalendarUdalosti{
             foreach (DateOnly date in this.data)
             {
                 dateTime = date.ToDateTime(TimeOnly.Parse("00:00 AM"));
-
-                var datum = new Calendar(dateTime);
-                datum.AddCalendarEvent(dateTime.Year, dateTime.Month, dateTime.Day);
-                //datum.HighlightStyle(Style.Parse("green bold"));
             }
             while (true)
             {
