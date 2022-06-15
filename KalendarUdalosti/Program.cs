@@ -20,7 +20,7 @@ while (true)
         .PageSize(10)
         .AddChoices(new[] {
     "Calendar", "All Events", "New Event",
-    "Close Application",
+    "Close Application", "Delete ALL events"
         }));
     if (vyber == "Calendar")
     {
@@ -58,5 +58,9 @@ while (true)
         });
         Console.Clear();
         Environment.Exit(1);
+    }
+    else if (vyber == "Delete ALL events")
+    {
+        pomocnaTrida.DeleteAll();
     }
 }

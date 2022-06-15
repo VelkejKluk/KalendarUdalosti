@@ -88,7 +88,7 @@ namespace KalendarUdalosti
 
         public void DeleteAll()
         {
-
+            this.data.Clear();
         }
 
         public void Helper()
