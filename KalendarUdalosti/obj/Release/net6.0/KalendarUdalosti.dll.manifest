@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KalendarUdalosti.exe" version="1.1.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Možnosti manifestu UAC
+          Chcete-li změnit úroveň řízení uživatelských účtů v systému Windows, nahraďte 
+          uzel requestedExecutionLevel jedním z následujících.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Chcete-li využít virtualizaci souborů a registru pro zpětnou 
+         kompatibilitu, odstraňte uzel requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Mj1u5ZNkbGEqGktIPCSo5i8oJcFZ4n8g2A5XyymoH9U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DnsClient.dll" size="153088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XFrb8OLREZnPfwKYGkJqqnN6zBL81E3/fFPZfbZI0Ns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KalendarUdalosti.deps.json" size="9265">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TXaboXqkApqvZrR2LemosRQiqR4YgxYM4JovBqesOno=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KalendarUdalosti.dll" size="10752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P39TUAU/8QR8ckEC43miDy/ib7FmIMMqqKG4Yy/EVCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KalendarUdalosti.exe" size="148992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9CRPwe+wyK3hV8zuix47JjnYRzYPYsZxYz9qgw8fo1Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KalendarUdalosti.runtimeconfig.json" size="253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3tOutYVqEdsLZUp4VXRJDKtVg56/sX7+njm4lhj8W5E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MongoDB.Bson.dll" size="472064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pge9K9Utb7z9fkMRA8eVkpWGFCZngbDk2R8RjKtwbzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MongoDB.Driver.Core.dll" size="934400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z/LDN8lZ0TFza8Sf41MMDl+j9TPtg6kRHLGDSxxxxRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MongoDB.Driver.dll" size="1319424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zW/DYBoqc+V3i7nj/LjrdmVKkpjlVPwi07uoXQc20GE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MongoDB.Libmongocrypt.dll" size="47616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TaK3VRk+NmCEevU0XWGzE/ID1QBZ5uXyy2DtD6WL54Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\linux\native\libmongocrypt.so" size="1484688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c0xBUwZ7kkMZ6Mfy7xklmuhz2bIAZsb0f8EeQolY+l8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\linux\native\libsnappy64.so" size="134080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LLpZ93diAnikge+D1vDJQRyb+oboOM/+M6ej1FAjvn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\linux\native\libzstd.so" size="1384960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GoERhv8Z2NsK3awhOmNUnlxfe3ji1shmC1YG6n7AEb4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\osx\native\libmongocrypt.dylib" size="391292">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EqqLKYeDggj8YgVjllj33QSmJ9tnTWykpSMueyeFuPw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\osx\native\libsnappy64.dylib" size="101104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FuVsTL4yEKXrwK7ceO0l1Z5i281S+7h/7O35wsYUJwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\osx\native\libzstd.dylib" size="1672832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mJrSgyvT7bK4y9VtNmvr7HZvzhjNywE7kIhSd1eEayc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\native\libzstd.dll" size="1020311">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sJi5wzuQkmscSQy50TJ0vSWG9XsnlkZihnhN8O1E66k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\native\mongocrypt.dll" size="408576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BM51VXkYOg/a1OX9PRDNFgyQveQCmUdBTqk/t0gx6ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\native\snappy32.dll" size="231936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k8M9VIrDS4lxsB4/uY+4galTD5z27rRC2jn04d4RQCI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\native\snappy64.dll" size="270336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oL/RbhCr43mqI21RsiQr7FRhZMzg1Rsog+YkF/UIAVs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SharpCompress.dll" size="546304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g6OkB2E3tHVhjYz074TwY/qKeHk14HgEWYjivSizy68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Spectre.Console.dll" size="813568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hC/Zflj7usSMzdoOV1sUobivdcQu+HkR/d/tpbe9u8U=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
