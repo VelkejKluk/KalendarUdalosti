@@ -18,20 +18,35 @@ namespace KalendarUdalosti
 
         }
 
-        public void AllEvents(DateTime dateTime)
+        public void AllEvents()
         {
-            //vyber z DateonlyListu - potreba prevest na DateTime, jinak nejde vybrat
-            var vyber = AnsiConsole.Prompt(new SelectionPrompt<DateTime>()
-                .Title("Events:")
-                .PageSize(10)
-                .AddChoices(this.data.Select(x => x.ToDateTime(TimeOnly.Parse("00:00 AM"))))
-            );
+            //ověření, jestli je prázdný List nebo ne
+            DateTime zkouska = new DateTime();
+            foreach (DateOnly date in this.data)
+            {
+                zkouska = date.ToDateTime(TimeOnly.Parse("00:00 AM"));
+            }  
+                        
+            if (zkouska != DateTime.MinValue)
+            {
+                //vyber z DateonlyListu - potreba prevest na DateTime, jinak nejde vybrat
+                var vyber = AnsiConsole.Prompt(new SelectionPrompt<DateTime>()
+                    .Title("Events:")
+                    .PageSize(10)
+                    .AddChoices(this.data.Select(x => x.ToDateTime(TimeOnly.Parse("00:00 AM"))))
+                );
 
-            Calendar calendar = new Calendar(vyber);
-            calendar.AddCalendarEvent(vyber);
-            //barvicky
-            AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("yellow bold")));
-            Console.ReadKey();
+                Calendar calendar = new Calendar(vyber);
+                calendar.AddCalendarEvent(vyber);
+                //barvicky
+                AnsiConsole.Write(calendar.HighlightStyle(Style.Parse("yellow bold")));
+                Console.ReadKey();
+            }
+            else
+            {
+                this.Helper();
+            }
+            
         }
 
         public void NewEvent()
@@ -69,6 +84,11 @@ namespace KalendarUdalosti
                 data.Add(date);
                 break;
             }
+        }
+
+        public void DeleteAll()
+        {
+
         }
 
         public void Helper()
